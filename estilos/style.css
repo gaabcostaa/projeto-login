@@ -33,6 +33,8 @@ section#login {
     border-radius: 20px;
     overflow: hidden;  /* Tudo fora da borda fica escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width .3s, height .3s; /* controlar a velocidade da transição, para não ser tão rapida */
+    transition-timing-function: ease; /* suavidade na transição (não notei tanta diferença) */
 }
 
 section#login > div#imagem {
